@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import './hero.scss';
 import { motion } from 'framer-motion';
 
@@ -50,7 +50,7 @@ const Hero = () => {
                     animate="animate"
                 >
                     <motion.h2 variants={textVariants}>
-                        # No.1 Digital Agency
+                        Digital Agency
                     </motion.h2>
                     <motion.h1 variants={textVariants}>
                         Where ideas bloom, intelligence thrives
@@ -80,7 +80,7 @@ const Hero = () => {
                 Coding Programming Node React
             </motion.div>
             <div className="imageContainer">
-                <img src="/hero.png" alt=""></img>
+                <img src="/hero.png" alt="" />
             </div>
         </div>
     );
