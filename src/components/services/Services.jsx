@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { motion, useInView } from 'framer-motion';
+import { animate, motion, useInView } from 'framer-motion';
 import './services.scss';
 const Services = () => {
     const ref = useRef();
@@ -30,7 +30,8 @@ const Services = () => {
             // animate="animate"
             // whileInView="animate"
             ref={ref}
-            animate={isInView && 'animate'}
+            //animate={isInView && 'animate'}
+            animate={'animate'}
         >
             <motion.div variants={variants} className="textContainer">
                 <p>
