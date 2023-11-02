@@ -14,6 +14,8 @@
             justify-content: flex-end;
             padding: 20px;
         }
+        @include tablet {
+        }
 
         span {
             font-weight: bold;
