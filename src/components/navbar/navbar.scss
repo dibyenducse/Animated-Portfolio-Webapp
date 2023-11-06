@@ -13,17 +13,14 @@
         @include mobile {
             justify-content: flex-end;
             padding: 20px;
+
+            & .logo {
+                display: none;
+            }
         }
         @include tablet {
         }
 
-        span {
-            font-weight: bold;
-
-            @include mobile {
-                display: none;
-            }
-        }
         .social {
             display: flex;
             gap: 20px;
