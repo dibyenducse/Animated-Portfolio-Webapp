@@ -19,6 +19,9 @@
             }
         }
         @include tablet {
+            .logo {
+                display: none;
+            }
         }
 
         .social {
