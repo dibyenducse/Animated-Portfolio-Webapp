@@ -19,6 +19,8 @@
             }
         }
         @include tablet {
+            justify-content: flex-end;
+            padding: 20px;
             .logo {
                 display: none;
             }
