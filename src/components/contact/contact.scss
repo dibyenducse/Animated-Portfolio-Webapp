@@ -13,6 +13,10 @@
         padding: 10px;
         flex-direction: column;
     }
+    @include tablet {
+        width: 90%;
+        flex-direction: row;
+    }
 
     .textContainer {
         flex: 1;
