@@ -67,6 +67,9 @@
                     @include mobile {
                         object-fit: contain;
                     }
+                    @include tablet {
+                        object-fit: contain;
+                    }
                 }
             }
 
